@@ -52,7 +52,10 @@
 }
 
 .osMargin {
-    margin-bottom: 200px;
+    margin-bottom: 150px;
+}
+.jusRaleway {
+        text-align: justify;
 }
 
 .review {
@@ -77,13 +80,13 @@
     opacity: 0.8;
     color: white;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 125px;
     border-radius: 6px;
 }
 
 .menu {
     background: url(../img/black_linen.png);
-    height: 550px;
+    height: 700px;
 }
 
 .navbar-inverse .navbar-toggle {
