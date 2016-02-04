@@ -1,4 +1,6 @@
-
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Raleway', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
 
 .navMargin {
     margin-right: 0px;
@@ -15,6 +17,23 @@
 
 .navbar-inverse .navbar-nav>li>a {
     color: white;
+}
+.lobster {
+    font-family: 'Lobster', cursive;
+}
+
+.lobsterWhite {
+    color: white;
+    font-size: 52px;
+    margin-bottom: 35px;
+}
+
+.lobsterColor {
+    color: #f8512f;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
 }
 
 #carousel-example-generic {
@@ -90,4 +109,17 @@
     border: 1px solid lightgray;
     border-radius: 4px;
     padding: 4px;
+}
+
+.bottomColor {
+    height: 500px;
+    background-color: #f8512f;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #f8512f;
+}
+
+a:focus, a:hover {
+    color: #f8512f;
 }
