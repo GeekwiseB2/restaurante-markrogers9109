@@ -1,0 +1,93 @@
+
+
+.navMargin {
+    margin-right: 0px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background-color: rgba(51, 51, 51, 0.7);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+#carousel-example-generic {
+    height:500px;
+    background:url(../Img/wood-2.jpg) no-repeat center center;
+    margin-bottom: 80px;
+}
+
+.carouselLogo {
+    width:275px;
+    margin:125px auto;
+}
+
+.ourStory {
+    margin-top: 25px;
+}
+
+.osMargin {
+    margin-bottom: 200px;
+}
+
+.review {
+    height:400px;
+    /*background: url(../img/food_review.jpg) no-repeat center center;*/
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.imgReview {
+    height:400px;
+    background: url(../img/food_review.jpg);
+    background-size:100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.reviewContent {
+    background-color: #333;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 6px;
+}
+
+.menu {
+    background: url(../img/black_linen.png);
+    height: 550px;
+}
+
+.navPad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menuDisplay {
+    display: inline-flex;
+}
+
+.menuThumb {
+    padding: 0px;
+}
+
+.thumbnail {
+    border: 0px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.imgThumb {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 4px;
+}
