@@ -16,8 +16,14 @@
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: white;
+    color: lightgray;
 }
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+    background-color: rgba(51, 51, 51, 0.9);
+}
+
 .lobster {
     font-family: 'Lobster', cursive;
 }
@@ -39,12 +45,32 @@
 #carousel-example-generic {
     height:500px;
     background:url(../img/wood-2.jpg) no-repeat center center;
+    /*margin-top:0px;*/
     margin-bottom: 80px;
 }
 
 .carouselLogo {
     width:275px;
     margin:125px auto;
+}
+
+/*.carousel-inner > .item > img {
+    width: 100%;
+}*/
+
+.imgC2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+      max-width: none;
+}
+
+.imgC3 {
+    /*background:url(../img/farm-2.jpg) no-repeat center center;*/
+    position: absolute;
+    z-index: -1;
 }
 
 .ourStory {
@@ -54,8 +80,30 @@
 .osMargin {
     margin-bottom: 150px;
 }
+
+.marginStory {
+    margin: 0px;
+    text-shadow: 1px 1px 3px #000;
+    font-size: 74px;
+}
+
+.marginMan {
+    margin-top: 3px;
+    font-weight: bold;
+}
+
 .jusRaleway {
         text-align: justify;
+}
+
+.date h1 {
+    color: lightgray;
+    font-size: 120px;
+    position: absolute;
+    bottom: -60px;
+    left: 50px;
+    z-index: -1;
+    font-family: 'Lobster', cursive;
 }
 
 .review {
@@ -76,17 +124,30 @@
 }
 
 .reviewContent {
-    background-color: #333;
-    opacity: 0.8;
+    background-color: rgba(51, 51, 51, 0.7);
+    /*opacity: 0.8;*/
     color: white;
     text-align: center;
     margin-top: 125px;
     border-radius: 6px;
+    padding: 15px;
+}
+
+.bee {
+    text-shadow: 1px 1px 3px #000;
+    margin-bottom: 10px;
+}
+
+.beeQuote {
+    font-size: 18px;
 }
 
 .menu {
     background: url(../img/black_linen.png);
-    height: 700px;
+}
+
+.menuMargin {
+    margin-bottom: 15px;
 }
 
 .navbar-inverse .navbar-toggle {
@@ -101,15 +162,24 @@
 
 .nav-tabs.nav-justified>li>a:hover {
     background-color: rgba(51, 51, 51, 0.7);
-    border:1px solid #333;
+    border:1px solid #f8512f;
 }
 
 .menuDisplay {
     display: inline-flex;
 }
 
+.menuTitle {
+    font-size: 95px;
+}
+
 .menuThumb {
     padding: 0px;
+}
+
+.menuTab {
+    font-size: 14px;
+    font-weight: 900;
 }
 
 .thumbnail {
@@ -125,8 +195,34 @@
 }
 
 .bottomColor {
-    height: 500px;
     background-color: #f8512f;
+}
+
+.contactHead {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+}
+
+.contactText {
+    color:white;
+}
+
+.footerPad {
+    padding-left: 0px;
+}
+
+.socialRaleway {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    display: table-row;
+}
+
+.socialFooter {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    display: table-row;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
