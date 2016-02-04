@@ -91,6 +91,12 @@
     padding-right: 0px;
 }
 
+.nav-tabs.nav-justified>li>a:hover {
+    background-color: #333;
+    border:1px solid #333;
+    opacity: 0.8;
+}
+
 .menuDisplay {
     display: inline-flex;
 }
