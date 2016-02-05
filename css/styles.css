@@ -44,20 +44,52 @@
 
 #carousel-example-generic {
     height:500px;
-    background:url(../img/wood-2.jpg) no-repeat center center;
     /*margin-top:0px;*/
-    margin-bottom: 80px;
+}
+
+.carousel-inner .item {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.wood {
+    background-image:url(../img/wood-2.jpg);
+}
+
+.restaurant-2 {
+    background-image: url(../img/restaurant-2.jpg);
+}
+
+.farm-2 {
+    background-image: url(../img/farm-2.jpg);
+}
+
+.carousel-caption {
+    padding-bottom: 100px;
 }
 
 .carouselLogo {
-    width:275px;
-    margin:125px auto;
+    width:325px;
+}
+
+.btnCarousel {
+    color: white;
+    background-color: #f8512f;
+    border: 0px;
+}
+
+.btnCarousel:hover {
+    color: white;
+    background-color: #333;
+    border:1px solid #f8512f;
 }
 
 /*.carousel-inner > .item > img {
     width: 100%;
 }*/
-
+/*
 .imgC2 {
       position: absolute;
       top: 0;
@@ -65,7 +97,7 @@
       min-width: 100%;
       height: 500px;
       max-width: none;
-}
+}*/
 
 .imgC3 {
     /*background:url(../img/farm-2.jpg) no-repeat center center;*/
@@ -79,6 +111,7 @@
 
 .osMargin {
     margin-bottom: 150px;
+    padding-top: 80px;
 }
 
 .marginStory {
@@ -98,12 +131,12 @@
 
 .date h1 {
     color: lightgray;
-    font-size: 120px;
+    font-size: 180px;
     position: absolute;
     bottom: -60px;
     left: 50px;
     z-index: -1;
-    font-family: 'Lobster', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 .review {
@@ -117,10 +150,11 @@
 .imgReview {
     height:400px;
     background: url(../img/food_review.jpg);
-    background-size:100%;
+    background-size:cover;
     width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    background-attachment: fixed;
 }
 
 .reviewContent {
