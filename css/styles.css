@@ -194,8 +194,13 @@
     padding: 4px;
 }
 
+.min100 {
+    min-width: 100%;
+}
+
 .bottomColor {
     background-color: #f8512f;
+    padding-bottom: 20px;
 }
 
 .contactHead {
