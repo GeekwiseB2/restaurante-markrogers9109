@@ -286,3 +286,9 @@ a:focus, a:hover {
         font-family: 'Playfair Display', serif;
     }
 }
+
+@media(max-width:420px) {
+    .form {
+        margin-left: -10px;
+    }
+}
