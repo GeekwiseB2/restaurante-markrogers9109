@@ -271,3 +271,18 @@
 a:focus, a:hover {
     color: #f8512f;
 }
+
+@media(max-width:420px) {
+    .form {
+        margin-left: 5px;
+    }
+    .date h1 {
+        color: lightgray;
+        font-size: 180px;
+        position: absolute;
+        bottom: -60px;
+        left: 20px;
+        z-index: -1;
+        font-family: 'Playfair Display', serif;
+    }
+}
